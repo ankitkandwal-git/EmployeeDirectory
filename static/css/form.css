@@ -1,0 +1,178 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:  cadetblue;
+    height : 100vh;
+}
+.form-container{
+    background-color: white;
+    border-radius : 15px;
+    min-height : 500px;
+    width : 600px;
+    margin-top : 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    color : black;
+    font-size: 20px;
+    font-family: 'Sans-serif';
+    font-weight: 500px;
+}
+.first-name{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size : 23px;
+    font-weight : bold;
+    font-family: 'Roboto';
+}
+.first-name-box{
+   height : 30px;
+   border-radius : 7px;
+   border: 1px solid #ccc;
+   padding: 10px;
+
+}
+.last-name{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size : 23px;
+    font-weight : bold;
+    font-family: 'Roboto';
+}
+.last-name-box{
+   height : 30px;
+   border-radius : 7px;
+   border: 1px solid #ccc;
+   padding: 10px;
+
+}
+.emial-department-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 32px 24px;
+    padding: 16px 0;
+    
+}
+.email-container, .department-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.email{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size : 23px;
+    font-weight : bold;
+    font-family: 'Roboto';
+}
+.email-box{
+   height : 30px;
+   border-radius : 7px;
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+.department{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size : 23px;
+    font-weight : bold;
+    font-family: 'Roboto';
+}
+.department-box{
+   height: 36px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    background: #fff;
+    margin-bottom: 16px;
+}
+.role {
+    display: block;
+    padding: 10px 0 5px 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.role-box {
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    background: #fff;
+    margin-bottom: 16px;
+}
+@media (max-width: 600px) {
+    .app-container {
+        padding: 8px;
+        height: auto;
+    }
+    .form-container {
+        width: 100%;
+        min-height: unset;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+        box-shadow: none;
+    }
+    .emial-department-container {
+        flex-direction: column;
+        gap: 8px;
+        margin: 16px 0;
+        padding: 8px 0;
+    }
+    .first-name, .last-name, .email, .department, .role {
+        font-size: 18px;
+        padding: 6px;
+    }
+    .first-name-box, .last-name-box, .email-box, .department-box, .role-box {
+        font-size: 16px;
+        padding: 6px;
+        height: 28px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+.button-container-form{
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+.cancel-button{
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-color : black;
+}
+.submit-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
